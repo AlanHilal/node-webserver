@@ -1,0 +1,23 @@
+{
+  "name": "node-webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanHilal/node-webserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanHilal/node-webserver/issues"
+  },
+  "homepage": "https://github.com/AlanHilal/node-webserver#readme",
+  "dependencies": {
+    "express": "~4.16.3"
+  }
+}
