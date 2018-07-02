@@ -1,0 +1,9 @@
+#!/bin/sh
+ 
+ssh app@ec2-18-191-22-82.us-east-2.compute.amazonaws.com <<EOF
+  cd ~/node-webserver
+  git pull
+  npm install
+  forever restartall
+  exit
+EOF
